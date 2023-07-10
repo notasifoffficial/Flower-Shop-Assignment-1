@@ -8,15 +8,16 @@
     padding: 30px 30px 0px 150px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
-    align-items: ;
     text-align: left;
 }
 .banner-title{
+    color: #272727;
     width: 720px;
     font-size: 45px;
-    margin-top: 197px;
+    margin-top: 173px;
 }
 .banner-description{
+    color: rgba(39, 39, 39, 0.60);
     width: 640px;
     font-size: 20px;
     margin-top: 25px;
@@ -33,4 +34,13 @@
     margin-left: 125%;
     margin-top: 200px;
     padding-bottom: 00px;
+    
+}
+.banner-btn{
+    background-color: #E55473;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: x-large;
+    border: none;
 }
