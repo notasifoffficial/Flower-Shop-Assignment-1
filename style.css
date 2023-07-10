@@ -11,15 +11,10 @@
     align-items: ;
     text-align: left;
 }
-.banner-section{
-    /* margin: 150px; */
-    /* justify-content: space-around; */
-}
 .banner-title{
     width: 720px;
     font-size: 45px;
     margin-top: 197px;
-    /* padding-top: 700px; */
 }
 .banner-description{
     width: 640px;
