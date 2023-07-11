@@ -208,3 +208,26 @@
     gap: 15px;
     margin-top: 120px;
 }
+.footer-container{
+    background: #111010;
+    margin-top: 150px;
+    height: 50vh;
+    text-align: center;
+}
+.footer-section{
+    padding: 150px;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-finishing{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 20px;
+}
