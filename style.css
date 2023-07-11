@@ -3,6 +3,7 @@
     font-family: 'Kanit', sans-serif;
     font-family: 'Signika Negative', sans-serif;
 }
+/* BANNER SECTION STARTS FROM HERE */
 .banner-container{
     height: 99vh;
     padding: 30px 30px 0px 150px;
@@ -36,6 +37,7 @@
     padding-bottom: 00px;
     
 }
+/* PRIMARY COLOR AND BUTTON IS HERE */
 .primary-btn{
     background-color: #E55473;
     color: white;
@@ -47,6 +49,7 @@
 .primary-color{
     color: #E55473;
 }
+/* FEATURED SECTION STARTS FROM HERE */
 .featured-container{
     display: flex;
     justify-content: space-around;
@@ -66,6 +69,16 @@
 .featured-img{
     margin-left: 180px;
 }
+.featured-img-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 35px;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: space-around;
+}
+/* FLOWERS SECTION AND IT'S POSITIONING IS HERE */
 .pink-flower-tree, .blue-flower-tree, .yellow-flower-tree{
     margin-right: 150px;
 }
@@ -81,15 +94,6 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
-.featured-img-title{
-    color: #272727;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 35px;
-    text-decoration-line: underline;
-    display: flex;
-    justify-content: space-around;
-}
 .pink-img-text-position{
     margin-left: 75px;
 }
@@ -101,6 +105,7 @@
 .yellow-img-text-position{
    margin-right: 55px;
 }
+/* HOT DEALS SECTION STARTS FROM HERE */
 .hot-deals-container{
     display: flex;
     justify-content: space-between;
@@ -125,6 +130,7 @@
 .hot-deals-title, .hot-deals-description, .hot-deals-btn{
     margin: 30px;
 }
+/* SOCIAL SECTION STARTS FROM HERE */
 .social-container{
     text-align: center;
     margin-top: 150px;
@@ -143,6 +149,7 @@
     display: flex;
     justify-content: space-around;
 }
+/* LATEST DEALS SECTION STARTS FROM HERE */
 .latest-deals-container{
     position: relative;
     text-align: center;
@@ -184,6 +191,7 @@
     gap: 15px;
     margin-top: 120px;
 }
+/* FOOTER SECTION STARTS FROM HERE */
 .footer-container{
     background: #111010;
     margin-top: 150px;
