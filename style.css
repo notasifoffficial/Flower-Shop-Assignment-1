@@ -125,3 +125,21 @@
 .hot-deals-title, .hot-deals-description, .hot-deals-btn{
     margin: 30px;
 }
+.social-container{
+    text-align: center;
+    margin-top: 150px;
+}
+.social-title{
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.social-flowers-img{
+    display: flex;
+    justify-content: space-around;
+}
