@@ -4,7 +4,7 @@
     font-family: 'Signika Negative', sans-serif;
 }
 .banner-container{
-    height: 100vh;
+    height: 99vh;
     padding: 30px 30px 0px 150px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -20,11 +20,11 @@
     color: rgba(39, 39, 39, 0.60);
     width: 640px;
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 3px;
     margin-bottom: 25px;
 }
 .banner-img{
-    width: 635px;
+    width: 100%;
     padding: 30px 30px 150px;
     justify-content: space-between;
     height: 800px;
@@ -40,9 +40,12 @@
     background-color: #E55473;
     color: white;
     border-radius: 5px;
-    padding: 10px 10px;
-    font-size: x-large;
+    padding: 15px 30px;
+    font-size: 25px;
     border: none;
+}
+.primary-color{
+    color: #E55473;
 }
 .featured-container{
     display: flex;
@@ -96,27 +99,29 @@
     margin-bottom: 200px;
 }
 .yellow-img-text-position{
-    margin-right: 55px;
+   margin-right: 55px;
 }
 .hot-deals-container{
-    width: 1922px;
-    height: 620px;
-    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 161vh;
+    padding: 200px;
     background: rgba(229, 84, 115, 0.05);
-    /* margin-top: 150px; */
-    
 }
 .hot-deals-section{
-   text-align: left;
+    text-align: center;
+    margin-top: 80px;
 }
-.hot-deals-position, .hot-deals-description, .hot-deals-btn{
-    /* margin-right: 550px; */
-    /* padding: 100px 0px 0px 100px; */
-    margin: 100px;
+.hot-deals-title{
+    color: #272727;
+    font-size: 50px;
 }
-
-.hot-deals-img{
-    display: flex;
-    justify-content: right;
-    margin-right: 430px;
+.hot-deals-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.hot-deals-title, .hot-deals-description, .hot-deals-btn{
+    margin: 30px;
 }
