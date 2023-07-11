@@ -143,3 +143,68 @@
     display: flex;
     justify-content: space-around;
 }
+/* .latest-deals-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 150px;
+}
+.latest-deals-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+}
+.latest-deals-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+.latest-deals-email{
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+} */
+
+.latest-deals-container{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+}
+.latest-deals-title{
+    color: #272727;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+}
+.latest-deals-description{
+    color: rgba(39, 39, 39, 0.60);
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+}
+.latest-deals-email{
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    padding-left: 10px;
+}
+.latest-deals-email-submit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 120px;
+}
